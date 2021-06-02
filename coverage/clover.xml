@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1622440315800" clover="3.2.0">
+  <project timestamp="1622440315800" name="All files">
+    <metrics statements="32" coveredstatements="30" conditionals="4" coveredconditionals="3" methods="8" coveredmethods="8" elements="44" coveredelements="41" complexity="0" loc="32" ncloc="32" packages="1" files="3" classes="3"/>
+    <file name="fileExist.ts" path="/Users/lintingchieh/Desktop/name-sorter/src/utilities/fileExist.ts">
+      <metrics statements="7" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="handleFile.ts" path="/Users/lintingchieh/Desktop/name-sorter/src/utilities/handleFile.ts">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+    <file name="handleSorting.ts" path="/Users/lintingchieh/Desktop/name-sorter/src/utilities/handleSorting.ts">
+      <metrics statements="14" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="10" count="2" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="31" type="stmt"/>
+      <line num="15" count="31" type="stmt"/>
+      <line num="16" count="31" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="17" type="cond" truecount="1" falsecount="1"/>
+      <line num="18" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>
