@@ -9,7 +9,6 @@ const handleFile = ():void => {
         const result = handleNameSorting(data).join("\n")
         const handleWriteFile = await fs.writeFile(EXPORT_FILE_PATH, result, (error) => {});
     })
-    console.log("Handle Files Done!")
 }
 
 export default handleFile;

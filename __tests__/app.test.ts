@@ -3,6 +3,7 @@ import fs from 'fs';
 
 import {handleSortName} from "../src/utilities/handleSorting";
 import handleFile from '../src/utilities/handleFile';
+import handleContainText from "../src/utilities/handleContainText";
 
 describe("Test File", () => {
 
@@ -13,16 +14,17 @@ describe("Test File", () => {
     })
 
     it('should run correctly on handleNameSorting function', (done) => {
-        const testNameFile:string[] = ["Emma Watson","Angelina Jolie","Tom Cruise","Brad Pitt"]
-        const expectedNameResult:string[] = ['Tom Cruise','Angelina Jolie','Brad Pitt','Emma Watson']
-        expect(handleSortName(testNameFile)).toBe(expectedNameResult)
+        const testNameFile: string[] = ["Emma Watson", "Angelina Jolie", "Tom Cruise", "Brad Pitt"]
+        const expectedNameResult: string[] = ['Tom Cruise', 'Angelina Jolie', 'Brad Pitt', 'Emma Watson']
+        expect(handleSortName(testNameFile)).toEqual(expectedNameResult)
         done()
     });
 
-    it('should have a name called Marin Alvarez', async (done) => {
+    it('should have a name called Marin Alvarez', (done) => {
         const PATH = "files/sorted-names-list.txt"
-        const file = await fs.readFile(PATH,(err)=>{});
-        expect(file).toContain('Marin Alvarez')
+        const testText = "'Marin Alvarez"
+        expect(handleContainText(PATH, testText)).toBe(true)
+        done()
     });
 })
 

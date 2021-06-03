@@ -71,7 +71,7 @@ yarn run tests
 
 Step 4: You are able to see the sorted list of names to a file called ``files/sorted-names-list.txt``
 
-Step 5: The server is running on the browser: [http://localhost:3005](http://localhost:3005)
+Step 5: The server is running on the browser: [http://localhost:3006](http://localhost:3006)
 
 ### Technical Use
 
